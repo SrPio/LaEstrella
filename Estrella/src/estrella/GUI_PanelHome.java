@@ -1,6 +1,6 @@
 package estrella;
 
-import static estrella.GUI_Producto.PanelProduct;
+//import static estrella.GUI_Producto.PanelProduct;
 import java.awt.BorderLayout;
 
 public class GUI_PanelHome extends javax.swing.JFrame {
@@ -199,12 +199,14 @@ public class GUI_PanelHome extends javax.swing.JFrame {
 
     private void BtnVerProductActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnVerProductActionPerformed
 
+        /*
         GUI_Producto ventanaProd = new GUI_Producto();
         ventanaProd.setSize(780, 570);
         ventanaProd.setLocation(30,60);
+        */
 
         PanelCentralHome.removeAll();
-        PanelCentralHome.add(PanelProduct, BorderLayout.CENTER);
+        //PanelCentralHome.add(PanelProduct, BorderLayout.CENTER);
         PanelCentralHome.revalidate();
         PanelCentralHome.repaint();
     }//GEN-LAST:event_BtnVerProductActionPerformed
