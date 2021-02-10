@@ -8,7 +8,7 @@ public class Conexion {
     
     public static final String URL = "jdbc:postgresql://localhost:5432/LaEstrella"; //Direccion, puerto y nombre de la Base de Datos
     public static final String USERNAME = "postgres"; //Usuario de Acceso a MySQL
-    public static final String PASSWORD = "jaramillo1999"; //Password del usuario
+    public static final String PASSWORD = "root"; //Password del usuario
     
      public static Connection getConection() {
         Connection con = null;
